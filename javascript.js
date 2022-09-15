@@ -50,15 +50,18 @@
     }
   }
 
+  // RESTOCK
   resetBtn.addEventListener("click", () => {
     location.reload();
   })
 
+  // MAIN
   function vendingMachine() {
     purchaseFromVendingMachine()
     addMoneyToVendingMachine()
   }
 
+  // THE PURCHASE ROUTE
   function purchaseFromVendingMachine(){
     allItems.forEach(can => {
       can.addEventListener("click", e => {
@@ -91,6 +94,7 @@
     }
   }
 
+  // ADDING MONEY ROUTE
   function addMoneyToVendingMachine () {
     coinInput.forEach(button => {
       button.addEventListener("click", (e) => {
@@ -114,6 +118,7 @@
     totalAmount.innerHTML = dollars
   }
 
+  // DISPLAY/VIEW
   function displayInventory(color) {
     const updatedAmount = inventory[color].Amount
     allItems.forEach(value => {
