@@ -1,9 +1,6 @@
 # README
 # Vending Machine Challenge
 
-
-![UI - Home](docs/home.png)
-
 This application was built with
 ```
 Raw HTML, Bootstrap & JavaScript
@@ -30,8 +27,8 @@ I am also aware that I am not displaying the amount given from the card payment 
 
 ## Tests
 
-Unfortunately I did not write any tests for this as the majority of my approach was to do with DOM Manipulation. Given more time I would have written some DOM tests in the Jest testing framework. I am aware however of TDD and am an advocate of this approach normally.
+Unfortunately I did not write any tests for this as the majority of my approach was to do with DOM Manipulation. Given more time I would have written some DOM tests in the Jest testing framework. I am aware however of TDD and am an advocate of this approach normally. I also would have used this approach more if using an OoP as a core principle.
 
 ## Final Thoughts
 
-Ultimately it would be good to refactor some of the naming conventions to be clearer on certain variables and to follow more of a pattern or structure (e.g. MVC for example). Given more time/another attempt I would have approached it this way more closely.
+Ultimately it would be good to refactor some of the naming conventions to be clearer on certain variables and to follow more of a pattern or structure (e.g. MVC for example). Given more time/another attempt I would have approached it this way more closely, however due to timing I tried my best to make an app that did not break while following the brief as closely as possible.
